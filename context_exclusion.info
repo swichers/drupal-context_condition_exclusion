@@ -1,0 +1,7 @@
+name = "Context Exclude Conditions"
+description = "Provides context conditions with exclusion options"
+core = "7.x"
+package = "McMurry"
+php = "5.3"
+version = "7.x-1.0"
+dependencies[] = "context"

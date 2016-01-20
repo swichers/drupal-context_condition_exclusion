@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset name="context_condition_exclusion">
+  <description>Define which options to use for PHPCS.</description>
+  <arg name="extensions" value="php,module,inc,install,test,profile,theme,js,css,info,txt,md" />
+  <rule ref="Drupal" />
+  <rule ref="DrupalPractice" />
+</ruleset>

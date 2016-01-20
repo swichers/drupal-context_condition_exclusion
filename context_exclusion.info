@@ -1,7 +1,6 @@
 name = "Context Exclude Conditions"
 description = "Provides context conditions with exclusion options"
 core = "7.x"
-php = "5.3"
 package = "Context"
 version = "7.x-1.0"
 dependencies[] = "context"

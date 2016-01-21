@@ -106,6 +106,11 @@ class context_exclusion_context_condition_exclusion extends context_condition_no
 
       $condition_met = !$excluded_path && ($matched_on_node && $matched_on_path);
 
+      if (!empty($options['reverse'])) {
+
+        $condition_met = !$condition_met;
+      }
+
       if ($condition_met) {
 
         $this->condition_met($context, $node->type);

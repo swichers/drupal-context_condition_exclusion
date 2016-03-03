@@ -1,22 +1,19 @@
-INTRODUCTION
-------------
+This is a set of [Context][1] condition plugins that extend the context path and node conditions allowing you to specify exclude options.
 
-This is a set of Context condition plugins that extend the context path and
-node conditions allowing you to specify exclude options.
+**Node type (with exclusion)**
 
+  Allows triggering on node types while excluding (or including) paths
 
-INSTALLATION
-------------
+**Not node type**
 
- * Install as usual, see http://drupal.org/documentation/install/modules-themes/modules-7 for further information.
+  Allows excluding certain node types
 
-CONFIGURATION
--------------
+## Requirements
 
-No special configuration necessary beyond the Context condition UI.
+* [Context][1]
 
-CONTACT
--------
+## Usage
 
-Current maintainers:
-* Steven Wichers (steven.wichers) - http://drupal.org/user/1774136
+Usage of this plugin is fairly straightforward. Enable it as you would any other module. A new set of conditions should be available within the Context UI.
+
+[1]: http://drupal.org/project/context
